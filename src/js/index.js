@@ -4,8 +4,8 @@ const sideNavCloseButton = document.querySelector('#body__click');
 
 sidenavOpenButton.addEventListener('click', () => {
     // body.classList.add('body__active');
-    sidenav.classList.add('sidenav__active');
-    sidenav.classList.remove('sidenav__unactive');
+    sidenav.classList.toggle('sidenav__active');
+    sidenav.classList.toggle('sidenav__unactive');
     sideNavCloseButton.classList.add('body__click__active');
 });
 
